@@ -1,0 +1,125 @@
+*{margin:0px;padding:0px;}
+body{font-family:arial;}
+#navigation{width:100%;overflow:hidden;background: #8aabab;}
+#unorderList li{float:left;list-style:none;}
+#unorderList li a{display:block;
+padding: 17px 23px;
+font-weight: bold;
+color: black;
+text-decoration: none;}
+#unorderList li a:hover{background:#dddddd;}
+
+#logoDiv{width:150px;float: left;}
+#logoDiv img{width:100%}
+#primaryMenu{width:800px;float: right;}
+div#menuContainer {
+    width: 1050px;
+    overflow: hidden;
+    margin: auto;
+}
+ul#unorderList {
+    overflow: hidden;
+    float: right;
+}
+#linearSection{height:500px;background:
+linear-gradient(#00000070,#00000070),
+linear-gradient(#00000070,#00000070),
+url(image/bg1.jpg);
+background-repeat:no-repeat;background-size:cover;}
+#linearSection h1{
+    line-height: 63px;
+    font-size: 91px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 33%;
+    left: 12%;
+}
+#linearSection h1 span {
+       font-size: 35px;
+color: burlywood;}
+
+section#serviceSection {
+    background: #00000085;
+	position:relative;
+}
+#serviceContainer{
+    width: 1170px;
+    overflow: hidden;
+    margin: auto;
+    /* z-index: 1; */
+}
+#serviceContainer h2{font-size: 39px;
+text-align: center;
+padding: 10px;
+margin-top: 25px;
+font-family: cursive;
+color: #d9aa6a;
+border-bottom: 1px solid;
+}
+#serviceContainer h2 span{font-size: 30px;
+font-family: cursive;
+color: orange;
+z-index: 1;
+position: absolute;
+left: 43%;}
+div#servicerProject {
+    padding: 14px 39px;
+    width: 280px;
+    background: #6e6b6bab;
+    border-radius: 0px;
+    display: inline-block;
+    margin: 23px 14px;
+	transition:transform .5s;
+}
+
+div#servicerProject:hover {
+    transform: translate(13px, -8px);
+	border:1px solid black;
+}
+div#servicerProject i {
+        font-size: 33px;
+        padding: 10px;
+        /* color: black; */
+        /* text-align: center; */
+        margin-left: 109px;
+        color: #c7a587;
+        background: #7a7a7a;
+        border-radius: 11px;
+        margin-bottom: 6px;
+}
+div#servicerProject h1 {
+    font-size: 30px;
+    padding-bottom: 1px;
+    text-align: center;
+    border-bottom: 2px solid #645d5d;
+    color: #d9aa6a;
+}
+div#servicerProject p {
+    margin: auto;
+    font-size: 14px;
+    font-family: inherit;
+    color: #bab4b4;
+    padding: 10px 0px;
+}
+section#serviceSection:before {
+    content: "";
+    width: 50%;
+    height: 100px;
+    background: #7a7a7a;
+    position: absolute;
+    transform: skewY(7deg);
+    top: -42px;
+    z-index: 0;
+}
+section#serviceSection:after {
+    content: "";
+    width: 50%;
+    height: 100px;
+    background: #7a7a7a;
+    position: absolute;
+    transform: skewY(-7deg);
+    top: -42px;
+    left:50%;
+    z-index: 0;
+}
